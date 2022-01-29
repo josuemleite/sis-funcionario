@@ -19,3 +19,4 @@ C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\obj\Debug\ne
 C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\obj\Debug\net6.0-windows\CadastroFuncionario.Forms.FormAltera.resources
 C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\obj\Debug\net6.0-windows\CadastroFuncionario.Forms.FormBusca.resources
 C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\obj\Debug\net6.0-windows\CadastroFuncionario.Forms.FormCadastro.resources
+C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\obj\Debug\net6.0-windows\CadastroFuncionario.FormLogin.resources

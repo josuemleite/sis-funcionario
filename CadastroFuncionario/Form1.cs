@@ -107,6 +107,15 @@ namespace CadastroFuncionario
             OpenChildForm(new Forms.FormAltera(), sender);
         }
 
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Tem certeza que desejas sair da aplicação?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                new FormLogin().Show();
+                this.Hide();
+            }
+        }
+
         private void btnCloseChildForm_Click(object sender, EventArgs e)
         {
             if (activeForm != null)
@@ -132,7 +141,12 @@ namespace CadastroFuncionario
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (MessageBox.Show("Tem certeza que desejas sair da aplicação?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                new FormLogin().Show();
+                this.Hide();
+            }
+            //Application.Exit();
         }
 
         private void btnMaximize_Click(object sender, EventArgs e)
