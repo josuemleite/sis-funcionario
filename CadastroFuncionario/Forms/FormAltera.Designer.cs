@@ -95,11 +95,11 @@
             this.dgFuncionarios.AllowUserToDeleteRows = false;
             this.dgFuncionarios.BackgroundColor = System.Drawing.Color.White;
             this.dgFuncionarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgFuncionarios.Location = new System.Drawing.Point(4, 48);
+            this.dgFuncionarios.Location = new System.Drawing.Point(-4, 48);
             this.dgFuncionarios.Name = "dgFuncionarios";
             this.dgFuncionarios.ReadOnly = true;
             this.dgFuncionarios.RowTemplate.Height = 25;
-            this.dgFuncionarios.Size = new System.Drawing.Size(561, 313);
+            this.dgFuncionarios.Size = new System.Drawing.Size(579, 321);
             this.dgFuncionarios.TabIndex = 17;
             // 
             // tabControl1
@@ -158,12 +158,13 @@
             this.btnAlterar.FlatAppearance.BorderSize = 0;
             this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlterar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAlterar.Location = new System.Drawing.Point(204, 317);
+            this.btnAlterar.Location = new System.Drawing.Point(211, 322);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(147, 43);
+            this.btnAlterar.Size = new System.Drawing.Size(140, 35);
             this.btnAlterar.TabIndex = 8;
             this.btnAlterar.Text = "ALTERAR";
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // txtAlteraRemuneracao
             // 
@@ -240,6 +241,7 @@
             // dtAlteraNascimento
             // 
             this.dtAlteraNascimento.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtAlteraNascimento.CustomFormat = "";
             this.dtAlteraNascimento.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dtAlteraNascimento.Location = new System.Drawing.Point(169, 133);
             this.dtAlteraNascimento.Name = "dtAlteraNascimento";
@@ -278,6 +280,7 @@
             // dtAlteraAdmissao
             // 
             this.dtAlteraAdmissao.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtAlteraAdmissao.CustomFormat = "";
             this.dtAlteraAdmissao.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dtAlteraAdmissao.Location = new System.Drawing.Point(155, 51);
             this.dtAlteraAdmissao.Name = "dtAlteraAdmissao";

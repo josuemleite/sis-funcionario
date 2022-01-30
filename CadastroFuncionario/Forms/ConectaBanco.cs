@@ -88,5 +88,35 @@ namespace CadastroFuncionario.Forms
                 conexao.Close();
             }
         }
+
+        public bool alteraFuncionario(Funcionario f, int codFuncionario)
+        {
+            MySqlCommand cmd = new MySqlCommand("altera_funcionario", conexao);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("codFuncionario", codFuncionario);
+            cmd.Parameters.AddWithValue("cargo", f.Cargo);
+            cmd.Parameters.AddWithValue("dataAdmissao", f.DataAdmissao);
+            cmd.Parameters.AddWithValue("nome", f.Nome);
+            cmd.Parameters.AddWithValue("dataNascimento", f.DataNascimento);
+            cmd.Parameters.AddWithValue("nacionalidade", f.Nacionalidade);
+            cmd.Parameters.AddWithValue("naturalidade", f.Naturalidade);
+            cmd.Parameters.AddWithValue("numCTPS", f.NumCTPS);
+            cmd.Parameters.AddWithValue("remuneracao", f.Remuneracao);
+            try
+            {
+                conexao.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch (MySqlException ex)
+            {
+                mensagem = "Erro: " + ex.Message;
+                return false;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+        }
     }
 }

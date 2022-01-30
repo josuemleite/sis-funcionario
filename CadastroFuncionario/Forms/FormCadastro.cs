@@ -95,6 +95,8 @@ namespace CadastroFuncionario.Forms
                 limpaCampos();
                 txtCargo.Focus();
             }
+            else
+                MessageBox.Show(con.mensagem);
         }
     }
 }
