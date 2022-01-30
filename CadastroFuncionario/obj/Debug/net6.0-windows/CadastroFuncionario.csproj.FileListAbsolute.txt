@@ -20,3 +20,12 @@ C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\obj\Debug\ne
 C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\obj\Debug\net6.0-windows\CadastroFuncionario.Forms.FormBusca.resources
 C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\obj\Debug\net6.0-windows\CadastroFuncionario.Forms.FormCadastro.resources
 C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\obj\Debug\net6.0-windows\CadastroFuncionario.FormLogin.resources
+C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\temp\ws-linguagens\ws-C#\CadastroFuncionario\CadastroFuncionario\obj\Debug\net6.0-windows\CadastroFuncionario.csproj.CopyComplete

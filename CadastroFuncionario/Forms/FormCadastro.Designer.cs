@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCargo = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.dtAdmissao = new System.Windows.Forms.DateTimePicker();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dtNascimento = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtNacionalidade = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtNaturalidade = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtCTPS = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtRemuneracao = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -57,13 +57,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Cargo:";
             // 
-            // textBox1
+            // txtCargo
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(86, 23);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(331, 23);
-            this.textBox1.TabIndex = 0;
+            this.txtCargo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtCargo.Location = new System.Drawing.Point(86, 23);
+            this.txtCargo.Name = "txtCargo";
+            this.txtCargo.Size = new System.Drawing.Size(331, 23);
+            this.txtCargo.TabIndex = 0;
             // 
             // label2
             // 
@@ -75,22 +75,23 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Data de admissão:";
             // 
-            // dateTimePicker1
+            // dtAdmissao
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker1.Location = new System.Drawing.Point(167, 61);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(286, 25);
-            this.dateTimePicker1.TabIndex = 1;
+            this.dtAdmissao.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtAdmissao.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtAdmissao.Location = new System.Drawing.Point(167, 61);
+            this.dtAdmissao.Name = "dtAdmissao";
+            this.dtAdmissao.Size = new System.Drawing.Size(286, 25);
+            this.dtAdmissao.TabIndex = 1;
+            this.dtAdmissao.Value = new System.DateTime(2022, 1, 29, 0, 0, 0, 0);
             // 
-            // textBox2
+            // txtNome
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(87, 105);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(420, 23);
-            this.textBox2.TabIndex = 2;
+            this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNome.Location = new System.Drawing.Point(87, 105);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(420, 23);
+            this.txtNome.TabIndex = 2;
             // 
             // label3
             // 
@@ -102,14 +103,15 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Nome:";
             // 
-            // dateTimePicker2
+            // dtNascimento
             // 
-            this.dateTimePicker2.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker2.Location = new System.Drawing.Point(181, 143);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(286, 25);
-            this.dateTimePicker2.TabIndex = 3;
+            this.dtNascimento.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtNascimento.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtNascimento.Location = new System.Drawing.Point(181, 143);
+            this.dtNascimento.Name = "dtNascimento";
+            this.dtNascimento.Size = new System.Drawing.Size(286, 25);
+            this.dtNascimento.TabIndex = 3;
+            this.dtNascimento.Value = new System.DateTime(2022, 1, 29, 0, 0, 0, 0);
             // 
             // label4
             // 
@@ -121,13 +123,13 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Data de nascimento:";
             // 
-            // textBox3
+            // txtNacionalidade
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.Location = new System.Drawing.Point(143, 183);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(331, 23);
-            this.textBox3.TabIndex = 4;
+            this.txtNacionalidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNacionalidade.Location = new System.Drawing.Point(143, 183);
+            this.txtNacionalidade.Name = "txtNacionalidade";
+            this.txtNacionalidade.Size = new System.Drawing.Size(331, 23);
+            this.txtNacionalidade.TabIndex = 4;
             // 
             // label5
             // 
@@ -139,13 +141,13 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Nacionalidade:";
             // 
-            // textBox4
+            // txtNaturalidade
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox4.Location = new System.Drawing.Point(134, 220);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(331, 23);
-            this.textBox4.TabIndex = 5;
+            this.txtNaturalidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNaturalidade.Location = new System.Drawing.Point(134, 220);
+            this.txtNaturalidade.Name = "txtNaturalidade";
+            this.txtNaturalidade.Size = new System.Drawing.Size(331, 23);
+            this.txtNaturalidade.TabIndex = 5;
             // 
             // label6
             // 
@@ -157,13 +159,13 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Naturalidade:";
             // 
-            // textBox5
+            // txtCTPS
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox5.Location = new System.Drawing.Point(163, 260);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(331, 23);
-            this.textBox5.TabIndex = 6;
+            this.txtCTPS.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtCTPS.Location = new System.Drawing.Point(163, 260);
+            this.txtCTPS.Name = "txtCTPS";
+            this.txtCTPS.Size = new System.Drawing.Size(331, 23);
+            this.txtCTPS.TabIndex = 6;
             // 
             // label7
             // 
@@ -175,15 +177,15 @@
             this.label7.TabIndex = 12;
             this.label7.Text = "Número da CTPS:";
             // 
-            // textBox6
+            // txtRemuneracao
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox6.Location = new System.Drawing.Point(163, 297);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(120, 23);
-            this.textBox6.TabIndex = 7;
-            this.textBox6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox6_KeyPress);
-            this.textBox6.Leave += new System.EventHandler(this.textBox6_Leave);
+            this.txtRemuneracao.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtRemuneracao.Location = new System.Drawing.Point(163, 297);
+            this.txtRemuneracao.Name = "txtRemuneracao";
+            this.txtRemuneracao.Size = new System.Drawing.Size(120, 23);
+            this.txtRemuneracao.TabIndex = 7;
+            this.txtRemuneracao.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox6_KeyPress);
+            this.txtRemuneracao.Leave += new System.EventHandler(this.textBox6_Leave);
             // 
             // label8
             // 
@@ -206,6 +208,7 @@
             this.btnCadastrar.TabIndex = 15;
             this.btnCadastrar.Text = "CADASTRAR";
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // FormCadastro
             // 
@@ -214,21 +217,21 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnCadastrar);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtRemuneracao);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtCTPS);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtNaturalidade);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtNacionalidade);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.dtNascimento);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtAdmissao);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtCargo);
             this.Controls.Add(this.label1);
             this.Name = "FormCadastro";
             this.Text = "CADASTRAR";
@@ -241,20 +244,20 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
+        private TextBox txtCargo;
         private Label label2;
-        private DateTimePicker dateTimePicker1;
-        private TextBox textBox2;
+        private DateTimePicker dtAdmissao;
+        private TextBox txtNome;
         private Label label3;
-        private DateTimePicker dateTimePicker2;
+        private DateTimePicker dtNascimento;
         private Label label4;
-        private TextBox textBox3;
+        private TextBox txtNacionalidade;
         private Label label5;
-        private TextBox textBox4;
+        private TextBox txtNaturalidade;
         private Label label6;
-        private TextBox textBox5;
+        private TextBox txtCTPS;
         private Label label7;
-        private TextBox textBox6;
+        private TextBox txtRemuneracao;
         private Label label8;
         private Button btnCadastrar;
     }
