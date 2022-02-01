@@ -88,6 +88,7 @@
             this.txtBusca.Name = "txtBusca";
             this.txtBusca.Size = new System.Drawing.Size(287, 29);
             this.txtBusca.TabIndex = 0;
+            this.txtBusca.TextChanged += new System.EventHandler(this.txtBusca_TextChanged);
             // 
             // dgFuncionarios
             // 
